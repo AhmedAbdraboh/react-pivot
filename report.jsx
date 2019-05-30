@@ -56,8 +56,7 @@ module.exports = createReactClass({
     return <ReactPivot rows={rows}
       dimensions={dimensions}
       reduce={reduce}
-      calculations={calculations}
-      activeDimensions={['Transaction Type']} />
+      calculations={calculations} />
 
   }
 })
